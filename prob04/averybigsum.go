@@ -9,7 +9,7 @@ func main() {
     numbers = 0
     sum = 0
     fmt.Scanf("%d", &number)
-    for i:=0; i<number; i++{
+    for i:=0; i<number; i++ {
         fmt.Scanf("%d", &numbers)
         sum += numbers
     }

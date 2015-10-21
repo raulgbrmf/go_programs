@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func simpleArraySum(size int, array []int) int{
+func simpleArraySum(size int, array []int) int {
   result := 0
   for _, value := range array {
     result += value

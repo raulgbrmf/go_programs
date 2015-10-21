@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestSimpleArraySum(t *testing.T){
+func TestSimpleArraySum(t *testing.T) {
   cases := []struct {
     size, result int
     array []int
