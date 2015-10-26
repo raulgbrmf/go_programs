@@ -15,5 +15,5 @@ func TestSolveMeFirst(t *testing.T) {
 		if got != c.want {
 			t.Errorf("solveMeFirst(%d, %d) == %d, want %d", c.num1, c.num2, got, c.want)
 		}
-  }
+	}
 }
